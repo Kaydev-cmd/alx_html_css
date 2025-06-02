@@ -129,6 +129,7 @@ table {
 body {
   font-family: "Josefin Sans", serif;
   color: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
 }
 h1,
 h2,
@@ -149,7 +150,7 @@ header a {
   color: rgba(0, 0, 0, 0.8);
 }
 aside {
-  background: #fafafa;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
 }
 aside p {
   border: 1px solid #bbb;
