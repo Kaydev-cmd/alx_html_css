@@ -24,3 +24,18 @@ article,
 aside {
   overflow-y: auto;
 }
+
+.comments .card .name-and-image {
+  display: flex;
+  align-items: center;
+}
+
+.comments .card img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.comments .card h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
