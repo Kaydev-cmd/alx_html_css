@@ -123,3 +123,42 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* Fonts and colors */
+
+body {
+  font-family: "Josefin Sans", serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header {
+  font-family: "Yeseva One", sans-serif;
+}
+article {
+}
+header {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  transition: border-bottom-color 1s ease;
+}
+header a {
+  color: rgba(0, 0, 0, 0.8);
+}
+aside {
+  background: #fafafa;
+}
+aside p {
+  border: 1px solid #bbb;
+  background: #ddd;
+  color: black;
+}
+footer a {
+  color: rgba(0, 0, 0, 0.8);
+}
+a {
+  color: #f80002;
+}
