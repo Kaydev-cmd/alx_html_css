@@ -9,7 +9,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 32px;
+  padding: 8px 0px;
 }
 
 header nav ul {
@@ -36,7 +36,7 @@ header nav ul li a:hover {
   align-items: center;
   flex-direction: column;
   color: #fff;
-  margin: 160px 0;
+  margin: 80px 0;
 }
 
 .get-schooled h1 {
@@ -62,4 +62,41 @@ header nav ul li a:hover {
 
 .get-schooled button:hover {
   opacity: 0.8;
+}
+
+.pros {
+  padding: 30px 0;
+  color: #fff;
+}
+
+.pros h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 120px;
+}
+
+.pros h2 span {
+  color: #c271ff;
+}
+
+.pros-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pros-wrapper .card {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pros-wrapper .card img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.pros-wrapper .card p {
+  text-align: center;
+  font-style: italic;
 }
