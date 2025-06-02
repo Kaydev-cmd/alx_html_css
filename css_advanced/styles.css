@@ -1,5 +1,4 @@
-header,
-main:first-child {
+.hero-background {
   background-image: url("./images/Object.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -29,4 +28,38 @@ header nav ul li a {
 
 header nav ul li a:hover {
   text-decoration: underline;
+}
+
+.get-schooled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  margin: 160px 0;
+}
+
+.get-schooled h1 {
+  font-size: 120px;
+}
+
+.get-schooled div {
+  display: flex;
+  gap: 32px;
+  margin: 40px 0;
+}
+
+.get-schooled button {
+  background-color: #c271ff;
+  padding: 22px 28px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px 2px #525050;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-schooled button:hover {
+  opacity: 0.8;
 }
