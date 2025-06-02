@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Yeseva+One);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* CSS reset rules */
 
@@ -131,4 +132,10 @@ table {
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+/* Fonts */
+
+body {
+  font-family: "Roboto", sans-serif;
 }
