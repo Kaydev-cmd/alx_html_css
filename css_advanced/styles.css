@@ -100,3 +100,28 @@ header nav ul li a:hover {
   text-align: center;
   font-style: italic;
 }
+
+.qoute {
+  background-color: #c271ff;
+}
+
+.qoute .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.qoute .text {
+  color: #fff;
+  font-size: 22px;
+}
+
+.qoute blockquote {
+  margin-bottom: 26px;
+}
+
+.qoute h3 {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
