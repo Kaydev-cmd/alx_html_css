@@ -5,6 +5,8 @@
   background-size: cover;
 }
 
+/* Hero and Banner */
+
 header nav {
   display: flex;
   align-items: center;
@@ -64,6 +66,8 @@ header nav ul li a:hover {
   opacity: 0.8;
 }
 
+/* Pros */
+
 .pros {
   padding: 30px 0;
   color: #fff;
@@ -103,6 +107,8 @@ header nav ul li a:hover {
   font-style: italic;
 }
 
+/* Qoute */
+
 .qoute {
   background-color: #c271ff;
 }
@@ -127,6 +133,8 @@ header nav ul li a:hover {
   margin-bottom: 16px;
   font-weight: 700;
 }
+
+/* Tutorials */
 
 .tutorials h2 {
   text-align: center;
@@ -225,4 +233,64 @@ header nav ul li a:hover {
 
 .tutorials .card .rating-and-duration p {
   color: #c271ff;
+}
+
+/* Membership */
+
+.membership {
+  background-color: #071629;
+  color: #fff;
+  padding: 60px 0;
+  margin: 40px 0;
+}
+
+.membership h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.membership h2 span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.membership .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.membership .wrapper .card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.membership .wrapper .card p {
+  line-height: 32px;
+}
+
+.membership .register-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.membership .register-btn button {
+  background-color: #c271ff;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 50px;
+  transition: all 0.3 ease-in-out;
+}
+
+.membership .register-btn button:hover {
+  opacity: 0.8;
 }
