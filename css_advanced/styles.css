@@ -77,26 +77,28 @@ header nav ul li a:hover {
 
 .pros h2 span {
   color: #c271ff;
+  font-weight: bold;
 }
 
-.pros-wrapper {
+.pros .wrapper {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.pros-wrapper .card {
+.pros .wrapper .card {
   width: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.pros-wrapper .card img {
+.pros .wrapper .card img {
   border-radius: 50%;
   margin-bottom: 20px;
 }
 
-.pros-wrapper .card p {
+.pros .wrapper .card p {
   text-align: center;
   font-style: italic;
 }
@@ -124,4 +126,103 @@ header nav ul li a:hover {
 .qoute h3 {
   margin-bottom: 16px;
   font-weight: 700;
+}
+
+.tutorials h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 80px 0;
+}
+
+.tutorials h2 span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.tutorials .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tutorials .card {
+  width: 360px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tutorials .card .lower-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0 8px;
+}
+
+.tutorials .card h3 {
+  font-weight: 700;
+}
+
+.tutorials .card p {
+  color: #727c8a;
+  line-height: 28px;
+}
+.tutorials .card .diagonal {
+  background: url("./images/9.png");
+}
+
+.tutorials .card .sad {
+  background: url("./images/7.png");
+}
+
+.tutorials .card .natural {
+  background: url("./images/8.png");
+}
+
+.tutorials .card .happy {
+  background: url("./images/6.png");
+}
+
+.tutorials .card .diagonal,
+.tutorials .card .sad,
+.tutorials .card .natural,
+.tutorials .card .happy {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.tutorials .card .review {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tutorials .card .review img {
+  width: 40px;
+}
+
+.tutorials .card .review h4 {
+  color: #c271ff;
+}
+
+.tutorials .card .rating {
+  display: flex;
+}
+
+.tutorials .card .rating-and-duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorials .card .rating-and-duration p {
+  color: #c271ff;
 }
