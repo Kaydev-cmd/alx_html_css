@@ -326,4 +326,30 @@ header nav ul li a:hover {
 
 .faq .wrapper .card p {
   color: #727c8a;
+  line-height: 24px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #071629;
+  color: #fff;
+  padding: 60px 0;
+  margin-top: 60px;
+}
+
+.footer .wrapper .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .wrapper .logos {
+  display: flex;
+  gap: 24px;
+}
+
+.footer p {
+  color: #525050;
+  text-align: center;
 }
