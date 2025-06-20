@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 780px;
+  height: 720px;
   color: #fff;
 }
 
@@ -42,4 +42,53 @@ header .content nav ul li a {
   text-decoration: none;
   color: #fff;
   text-transform: lowercase;
+  transition: all 0.3s ease-in-out;
+}
+
+header .content nav ul li a:hover {
+  color: #ff6565;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 62px;
+  margin-top: 180px;
+}
+
+.hero .content .title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.hero .content .title h2 {
+  font-size: 48px;
+  text-transform: none;
+}
+
+.hero .content button {
+  background-color: #ff6565;
+  color: #fff;
+  padding: 16px 48px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero .content button:hover {
+  opacity: 0.9;
+}
+
+.hero .content .summary {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  max-width: 800px;
 }
