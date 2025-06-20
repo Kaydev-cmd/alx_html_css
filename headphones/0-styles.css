@@ -1,0 +1,32 @@
+.hero-background {
+  background-image: url("./images/main_part.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+  color: #fff;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+header .content .title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+header .content .title h1 {
+  font-size: 16px;
+}
+
+header .content .title img {
+  width: 20px;
+  height: 20px;
+}
+
+
