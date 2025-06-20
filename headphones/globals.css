@@ -49,6 +49,10 @@ p {
   font-size: 16px;
 }
 
+section {
+  margin: 68px 0;
+}
+
 /* Media Queries */
 
 /* 2xl */
