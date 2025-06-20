@@ -7,6 +7,8 @@
   color: #fff;
 }
 
+/* Header */
+
 header .content {
   display: flex;
   align-items: center;
@@ -53,6 +55,8 @@ header .content .burger-menu {
   display: none;
 }
 
+/* Hero */
+
 .hero .content {
   display: flex;
   flex-direction: column;
@@ -97,6 +101,44 @@ header .content .burger-menu {
   max-width: 800px;
 }
 
+/* What we do */
+
+.what-we-do .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  color: #071629;
+}
+
+.what-we-do .content h2 {
+  font-size: 48px;
+  text-transform: none;
+  text-align: center;
+}
+
+.what-we-do .content p {
+  text-align: center;
+  font-size: 18px;
+  max-width: 800px;
+}
+
+.what-we-do .content .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  gap: 32px;
+}
+
+.what-we-do .content .card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
 /* Media Queries */
 
 /* 2xl */
@@ -109,6 +151,7 @@ header .content .burger-menu {
 
 /* lg */
 @media (max-width: 1024px) {
+  /* Hero */
   .hero .content .title h2 {
     text-align: center;
   }
@@ -119,6 +162,7 @@ header .content .burger-menu {
 
 /* md */
 @media (max-width: 768px) {
+  /* Hero */
   .hero .content {
     margin-top: 100px;
   }
@@ -126,11 +170,9 @@ header .content .burger-menu {
 
 /* sm */
 @media (max-width: 640px) {
+  /* Header */
   header .content nav {
     display: none;
-  }
-  .hero .content .title h2 {
-    font-size: 36px;
   }
   header .content .burger-menu {
     display: flex;
@@ -142,15 +184,25 @@ header .content .burger-menu {
     background-color: #fff;
     margin: 3px 0;
   }
+  /* Hero */
+  .hero .content .title h2 {
+    font-size: 36px;
+  }
+  /* What we do */
+  .what-we-do .content h2 {
+    font-size: 36px;
+  }
 }
 
 /* xs */
 @media (max-width: 475px) {
-  .hero-background {
-    height: 780px;
-  }
+  /* Header */
   header .content .title {
     gap: 8px;
+  }
+  /* Hero */
+  .hero-background {
+    height: 780px;
   }
   .hero .content {
     gap: 32px;
