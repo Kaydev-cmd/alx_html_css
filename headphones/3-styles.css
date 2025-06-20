@@ -196,6 +196,50 @@ header .content .burger-menu {
   font-weight: bold;
 }
 
+/* Contact */
+
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  color: #071629;
+}
+
+.contact .content h2 {
+  font-size: 48px;
+  text-transform: none;
+  text-align: center;
+}
+
+.contact .content .name,
+.contact .content .email,
+.contact .content .message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact .content .name input,
+.contact .content .email input,
+.contact .content .message textarea {
+  width: 600px;
+  padding: 12px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  border-radius: 8px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 /* Media Queries */
 
 /* 2xl */
@@ -267,6 +311,15 @@ header .content .burger-menu {
   .results .content h2 {
     font-size: 36px;
   }
+  /* Contact */
+  .contact .content h2 {
+    font-size: 36px;
+  }
+    .contact .content .name input,
+.contact .content .email input,
+.contact .content .message textarea {
+  width: 460px;
+}
 }
 
 /* xs */
@@ -291,5 +344,11 @@ header .content .burger-menu {
   }
   .results .content .wrapper {
     flex-direction: column;
+  }
+  /* Contact */
+  .contact .content .name input,
+  .contact .content .email input,
+  .contact .content .message textarea {
+    width: 100%;
   }
 }
