@@ -29,4 +29,17 @@ header .content .title img {
   height: 20px;
 }
 
+header .content nav ul {
+  display: flex;
+  gap: 48px;
+}
 
+header .content nav ul li {
+  list-style: none;
+}
+
+header .content nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: lowercase;
+}
