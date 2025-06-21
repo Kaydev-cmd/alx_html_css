@@ -203,6 +203,20 @@ header .content .burger-menu {
   background: #ff6347;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   margin: 50px auto;
+  cursor: pointer;
+}
+
+.results .content .card:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
 
 .results .content .card h3 {
